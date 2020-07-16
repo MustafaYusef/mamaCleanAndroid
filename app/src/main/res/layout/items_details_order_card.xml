@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="5dp"
+    android:outlineProvider="background"
+    android:id="@+id/containerCar"
+    android:background="@drawable/back_filter"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="right"
+        android:padding="10dp"
+        android:layoutDirection="locale"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ItemeOrderImage"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+
+            android:layout_gravity="right"
+            android:src="@drawable/laundry" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/titleOrderItem"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layoutDirection="locale"
+                android:fontFamily="@font/font_bold"
+                android:text="@string/selecte"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:text="@string/selecte"
+                android:layout_weight="1"
+                android:id="@+id/countOrderItem"
+                android:textSize="18sp"
+                android:layoutDirection="locale"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/font_bold"
+                android:textColor="@color/colorAccent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

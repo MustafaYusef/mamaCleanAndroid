@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mom Clean</string>
+    <string name="sendCode">تم ارسال الرمز بنجاح</string>
+   <string name="activateAccount">تم تفعيل الحساب</string>
+    <string name="noInternet">لا يوجد اتصال بالشبكة</string>
+   <string name="pressResendAfter" >أضغط على اعادة الأرسال بعد </string>
+    <string name="changePassSuccess">تم تغيير كلمة المرور بنجاح</string>
+    <string name="completeField">اكمل جميع الحقول</string>
+    <string name="updateInfo">تم تعديل المعلومات</string>
+    <string name="updatePhoto">تم تعديل الصورة</string>
+    <string name="wantLogOut">هل تريد تسجيل الخروج؟</string>
+    <string name="invaledPhoneOrPass">يوجد خطأ في رقم الهاتف او كلمة المرور</string>
+  <string name="phoneComplet">يجب ان يتكون الرقم من 10 مراتب</string>
+    <string name="confirmPassNotSame">تأكيد كلمة المرور غير صحيح</string>
+    <string name="diffPackage">لا تستطيع اضافة عناصر من اشتراكات مختلفة</string>
+    <string name="num">العدد: </string>
+    <string name="iron">كوي</string>
+    <string name="ironWach">غسل وكوي</string>
+    <string name="deleteFromCart">هل تريد حذف العنصر من السلة</string>
+    <string name="totalPrice">السعر الكلي :</string>
+    <string name="orderSendSuc">تم ارسال طلبك بنجاح </string>
+    <string name="orderWillSend">سوف يتم ارسال طلبك</string>
+    <string name="noItemInCateg">لا يوجد عناصر في هذا القسم</string>
+    <string name="addToCart">تم أضافة العنصر الى السلة</string>
+    <string name="Day"> يوم</string>
+    <string name="noItem">لا يوجد عناصر</string>
+    <string name="Expire">منتهي الصلاحية</string>
+    <string name="pending">قيد المعالجة</string>
+    <string name="accepted">تمت الموافقة</string>
+    <string name="refused">تم الألغاء</string>
+
+    <string name="BuyPackaege">تمت عملية الشراء بنجاح</string>
+    <string name="packPrice">سعر العرض: </string>
+    <string name="wantBuyPack">هل تريد شراء العرض</string>
+    <string name="wantCancelOrder">هل تريد ألغاء أرسال الطلب</string>
+
+    <string name="hour">ساعة</string>
+    <string name="minut">دقيقة</string>
+    <string name="befor">قبل</string>
+    <string name="deleverd">تم الأستلام</string>
+    <string name="inOficce">في المكتب</string>
+    <string name="proccess">قيد الأنجاز</string>
+    <string name="cancelOrder">تم ألغاء ارسال الطلب</string>
+
+    <string name="offers">العروض</string>
+    <string name="orders">الطلبات</string>
+    <string name="Cart">السلة</string>
+    <string name="Main">الرئيسية</string>
+    <string name="offersDetails">تفاصيل الأشتراك</string>
+    <string name="SecDetails">تفاصيل القسم</string>
+    <string name="myPackage">المشتريات</string>
+    <string name="requests">طلبات الأشتراك</string>
+    <string name="OrdersDetails">تفاصيل الطلب</string>
+    <string name="account">الحساب</string>
+    <string name="addToCart2">أضافة إلى السلة</string>
+    <string name="totalCount">العدد الكلي: </string>
+
+    <string name="buyOffer">شراء العرض</string>
+    <string name="send">ارسال</string>
+    <string name="willReciveSms">سوف تصلك رسالة تحتوي على رمز التفعيل</string>
+    <string name="code">رمز النفعيل</string>
+    <string name="ResendCode">أعادة ارسال الرمز</string>
+    <string name="ActivateAccount">تفعيل الحساب</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="NewPassword">كلمة المرور الجديدة</string>
+    <string name="Update">تحديث</string>
+    <string name="UpdataeInf">تعديل المعلومات</string>
+    <string name="UpadtePhoto">تعديل الصورة</string>
+
+    <string name="FullName">الأسم الكامل</string>
+    <string name="Address">الموقع</string>
+    <string name="confirmLoc">تأكيد الموقع</string>
+    <string name="Regester">تسجيل</string>
+    <string name="PassConfirm">تأكيد كلمة المرور</string>
+    <string name="selecte">أختيار</string>
+  <string name="delete">حذف</string>
+  <string name="confirm">تأكيد</string>
+  <string name="Login">دخول</string>
+  <string name="skip">تخطي</string>
+  <string name="doForget">هل نسيت كلمة المرور؟</string>
+  <string name="cancelOrder2">ألغاء الطلب</string>
+
+  <string name="details">التفاصيل</string>
+  <string name="OrderState">حالة الطلب</string>
+  <string name="RecivAt">تاريخ الأستلام</string>
+  <string name="UnAvalable">غير متوفر</string>
+
+  <string name="Expire2">مدة العرض</string>
+  <string name="Delever2">التوصيل</string>
+  <string name="accInfo">معلومات الحساب</string>
+  <string name="ordAndpack">الطلبات والأشتراكات</string>
+
+  <string name="myOrders">طلباتي</string>
+  <string name="setting">الأعدادات</string>
+
+  <string name="changePass">تغيير كلمة المرور</string>
+  <string name="retry">أعادة المحاولة</string>
+  <string name="state">الحالة: </string>
+  <string name="currentLoc">الموقع الحالي</string>
+  <string name="somThing">يوجد خطأ ما</string>
+  <string name="NotUthorize">حسابك غير صالح</string>
+</resources>

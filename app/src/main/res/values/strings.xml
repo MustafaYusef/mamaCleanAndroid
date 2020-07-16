@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Mom Clean</string>
+
+    <string name="sendCode">the Code has been sended Successfully</string>
+    <string name="activateAccount">Your account is active Now</string>
+    <string name="noInternet">There is no internet Connection</string>
+    <string name="pressResendAfter" >Press on Resend code after </string>
+    <string name="changePassSuccess">Password has been change Successfully</string>
+    <string name="completeField">Please complete all the Field</string>
+    <string name="updateInfo">Your information is change Successfully</string>
+    <string name="updatePhoto">Your Photo is change Successfully</string>
+    <string name="wantLogOut">Do you want to LogOut?</string>
+    <string name="invaledPhoneOrPass">Invalid phone or password</string>
+    <string name="phoneComplet">the phone number should be 10 number</string>
+    <string name="confirmPassNotSame">confirm password are not same the password</string>
+    <string name="diffPackage">You can not add items to cart from diffrent package</string>
+    <string name="num">number: </string>
+    <string name="iron">Ironing</string>
+    <string name="ironWach">Iron and wach</string>
+    <string name="deleteFromCart">Do you want delete item from cart</string>
+    <string name="totalPrice">Total Price</string>
+    <string name="orderSendSuc">Your Order has been send Successfully</string>
+    <string name="orderWillSend">your order will send</string>
+    <string name="noItemInCateg">There is no items in this Category</string>
+    <string name="addToCart">item is added to cart</string>
+    <string name="Day">day </string>
+    <string name="noItem">there is no items here</string>
+    <string name="Expire">Expire</string>
+
+    <string name="pending">pending</string>
+    <string name="accepted">accepted</string>
+    <string name="refused">refused</string>
+
+    <string name="BuyPackaege">You Purchase the package successfully</string>
+    <string name="packPrice">Package Price :</string>
+    <string name="wantBuyPack">Do you want buy the Package</string>
+    <string name="wantCancelOrder">Do you want cancel the order</string>
+    <string name="hour">Hour</string>
+    <string name="minut">minute</string>
+    <string name="befor">before</string>
+
+    <string name="deleverd">Delivered</string>
+    <string name="inOficce">with Office</string>
+    <string name="proccess">processed</string>
+
+    <string name="cancelOrder">Cancel order Successfully</string>
+
+    <string name="offers">Offers</string>
+    <string name="orders">Orders</string>
+    <string name="Cart">Cart</string>
+    <string name="Main">Main</string>
+    <string name="offersDetails">Offer Details</string>
+    <string name="SecDetails">Category Details</string>
+    <string name="myPackage">My Packages</string>
+    <string name="requests">My Requests</string>
+    <string name="OrdersDetails">Order Details</string>
+
+    <string name="account">Profile</string>
+
+    <string name="addToCart2">Add to Cart</string>
+    <string name="totalCount">Total count: </string>
+    <string name="buyOffer">Buy Offer</string>
+    <string name="send">Send</string>
+    <string name="willReciveSms">You will Receive a Sms Contain Code number</string>
+
+    <string name="code">Code</string>
+    <string name="ResendCode">Resend Code</string>
+    <string name="ActivateAccount">Activate Account</string>
+
+    <string name="Password">Password</string>
+    <string name="NewPassword">New Password</string>
+    <string name="Update">Update</string>
+    <string name="UpdataeInf">Update Information</string>
+    <string name="UpadtePhoto">Change photo</string>
+    <string name="FullName">Full Name</string>
+    <string name="Address">Address</string>
+    <string name="confirmLoc">Confirm Location</string>
+    <string name="Regester">Register</string>
+    <string name="PassConfirm">Confirm Password</string>
+    <string name="selecte">select</string>
+    <string name="delete">delete</string>
+    <string name="confirm">confirm</string>
+    <string name="Login">Login</string>
+    <string name="skip">Skip</string>
+    <string name="doForget">Do you Forget your Password?</string>
+
+    <string name="cancelOrder2">Cancel</string>
+    <string name="details">Details</string>
+    <string name="OrderState">Order Status</string>
+    <string name="RecivAt">Receive Date</string>
+    <string name="UnAvalable">Un available</string>
+
+    <string name="Expire2">expire</string>
+    <string name="Delever2">delivery</string>
+    <string name="accInfo">Account Information</string>
+    <string name="ordAndpack">Orders and Packages</string>
+    <string name="myOrders">My Orders</string>
+    <string name="setting">Settings</string>
+    <string name="changePass">Change Password</string>
+    <string name="retry">Retry</string>
+    <string name="state">Status: </string>
+    <string name="currentLoc">Current Location</string>
+    <string name="somThing">Something Wrong</string>
+    <string name="NotUthorize">Not Authorized</string>
+</resources>

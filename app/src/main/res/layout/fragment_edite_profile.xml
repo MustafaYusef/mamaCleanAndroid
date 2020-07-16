@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.Auth.profile.EditeProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/ToolBar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:elevation="5dp"
+                android:outlineProvider="paddedBounds"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+
+                android:gravity="center"
+                android:theme="@style/ToolBarTheme">
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UpdataeInf"
+                    android:drawablePadding="5dp"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/font_bold"
+
+                    android:textColor="@color/white"
+                    android:id="@+id/orders_fragmentBtn"
+
+                    />
+
+                <!--            <ImageButton-->
+                <!--                android:id="@+id/editeProfile"-->
+                <!--                android:layout_width="25dp"-->
+
+
+                <!--                android:layout_height="25dp"-->
+                <!--                android:src="@drawable/ic_mode_edit_black_24dp"-->
+                <!--                android:layout_gravity="left"-->
+                <!--                android:layout_marginRight="10dp"-->
+
+
+                <!--                android:background="#00FFFFFF"-->
+                <!--                android:padding="5dp" />-->
+
+
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profileImage"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center|top"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_person_black_24dp"
+                        app:civ_border_color="@color/colorAccent"
+                        app:civ_border_width="2dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/SelectPhotoU"
+                        app:layout_constraintEnd_toEndOf="@+id/SelectPhotoU"
+                        app:layout_constraintStart_toStartOf="@+id/SelectPhotoU"
+                        app:layout_constraintTop_toTopOf="@+id/SelectPhotoU" />
+
+                    <Button
+                        android:id="@+id/SelectPhotoU"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/rounded_photo"
+                        android:fontFamily="@font/font_bold"
+                        android:text="@string/UpadtePhoto"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            android:layout_margin="20dp"
+            android:elevation="5dp"
+            android:outlineProvider="background"
+            android:background="@drawable/back_text"
+            android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+
+                app:hintEnabled="false"
+                android:layoutDirection="rtl"
+
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:id="@+id/userNameEditeProf"
+                    android:padding="5dp"
+                    android:drawableRight="@drawable/ic_person_24dp"
+
+                    android:gravity="center"
+
+                    android:drawablePadding="5dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/font_regular"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="20sp"
+                    android:hint="@string/FullName"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="5dp"
+            android:outlineProvider="background"
+            android:background="@drawable/back_text"
+            android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+
+                app:hintEnabled="false"
+
+
+                android:layoutDirection="rtl"
+
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:inputType="none"
+                    android:id="@+id/locEditeProfile"
+                    android:padding="5dp"
+                    android:drawableRight="@drawable/ic_location_on_black_24dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_keyboard_arrow_down_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/font_regular"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="20sp"
+                    android:hint="@string/Address"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <ProgressBar
+                    android:id="@+id/ProgEditProfile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/EditeProfileBtn"
+                    app:layout_constraintEnd_toEndOf="@+id/EditeProfileBtn"
+                    app:layout_constraintStart_toStartOf="@+id/EditeProfileBtn"
+                    app:layout_constraintTop_toTopOf="@+id/EditeProfileBtn" />
+
+                <Button
+                    android:id="@+id/EditeProfileBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/round_btn4"
+                    android:fontFamily="@font/font_bold"
+                    android:text="@string/Update"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.473"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

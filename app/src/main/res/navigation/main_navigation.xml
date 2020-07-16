@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/categoreFragment">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.croczi.mamaclean.ui.Auth.Login"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" >
+        <action
+            android:id="@+id/action_login_to_signUp"
+            app:destination="@id/signUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.croczi.mamaclean.ui.cart.cartFragment"
+        android:label="cart_fragment"
+        tools:layout="@layout/cart_fragment" />
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.croczi.mamaclean.ui.Auth.signUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/main_Fragment"
+        android:name="com.croczi.mamaclean.ui.Main.main_Fragment"
+        android:label="main__fragment"
+        tools:layout="@layout/main__fragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.croczi.mamaclean.ui.Auth.profile.profileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.croczi.mamaclean.ui.orders.ordersFragment"
+        android:label="orders_fragment"
+        tools:layout="@layout/orders_fragment" />
+    <fragment
+        android:id="@+id/categoreFragment"
+        android:name="com.croczi.mamaclean.ui.categore.CategoreFragment"
+        android:label="categore_fragment"
+        tools:layout="@layout/categore_fragment" />
+    <fragment
+        android:id="@+id/sendCode"
+        android:name="com.croczi.mamaclean.ui.Auth.forgetPassword"
+        android:label="fragment_send_code"
+        tools:layout="@layout/forget_password" />
+    <fragment
+        android:id="@+id/resetPassword"
+        android:name="com.croczi.mamaclean.ui.Auth.resetPassword"
+        android:label="reset_password_fragment"
+        tools:layout="@layout/reset_password_fragment" />
+    <fragment
+        android:id="@+id/editeProfile2"
+        android:name="com.croczi.mamaclean.ui.Auth.profile.EditeProfile"
+        android:label="fragment_edite_profile"
+        tools:layout="@layout/fragment_edite_profile" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.croczi.mamaclean.ui.cart.mapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/itemsFragment"
+        android:name="com.croczi.mamaclean.ui.Main.itemsFragment"
+        android:label="fragment_items"
+        tools:layout="@layout/fragment_items" />
+    <fragment
+        android:id="@+id/activateUser"
+        android:name="com.croczi.mamaclean.ui.Auth.profile.ActivateUser"
+        android:label="fragment_activate_user"
+        tools:layout="@layout/fragment_activate_user" />
+    <fragment
+        android:id="@+id/changePassword"
+        android:name="com.croczi.mamaclean.ui.Auth.profile.changePassword"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/categoreItemsFragment"
+        android:name="com.croczi.mamaclean.ui.categore.CategoreItemsFragment"
+        android:label="CategoreItemsFragment" />
+    <fragment
+        android:id="@+id/myPackage_fragment"
+        android:name="com.croczi.mamaclean.ui.Main.myPackage.MyPackage_fragment"
+        android:label="MyPackage_fragment" />
+    <fragment
+        android:id="@+id/myRequest_fragment"
+        android:name="com.croczi.mamaclean.ui.Main.MyRequest.MyRequest_fragment"
+        android:label="MyRequest_fragment" />
+    <fragment
+        android:id="@+id/orderDetailsFragment"
+        android:name="com.croczi.mamaclean.ui.orders.orderDetailsFragment"
+        android:label="orderDetailsFragment" />
+</navigation>

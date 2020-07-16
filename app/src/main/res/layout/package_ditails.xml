@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_margin="10dp"
+
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_error_black_24dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_weight="1"
+               android:layoutDirection="locale"
+
+               android:textColor="@color/darkgray"
+               android:fontFamily="@font/font_bold"
+               android:textSize="20dp"
+               android:drawablePadding="5dp"
+
+               android:text="@string/offersDetails"
+               android:gravity="center_vertical"
+
+               android:layout_height="wrap_content"
+               />
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_weight="1"
+           android:id="@+id/packageDes"
+           android:padding="5dp"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           android:textColor="@color/darkgray"
+           android:fontFamily="@font/font_regular"
+           android:textSize="14dp"
+           android:drawablePadding="5dp"
+
+           android:text="@string/delete"
+           android:layoutDirection="locale"
+           android:layout_height="wrap_content"
+           />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="5dp"
+        android:layoutDirection="ltr"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layoutDirection="ltr"
+              android:layout_height="wrap_content">
+              <ImageView
+                  android:layout_width="40dp"
+                  android:paddingLeft="5dp"
+                  android:layout_height="40dp"
+                  android:src="@drawable/ic_local_shipping_black_24dp"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:textColor="@color/darkgray"
+                      android:fontFamily="@font/font_bold"
+                      android:textSize="16dp"
+
+                      android:text="@string/Delever2"
+                      android:gravity="center"
+
+                      android:layout_height="wrap_content"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:textColor="@color/colorAccent"
+                      android:fontFamily="@font/font_bold"
+                      android:textSize="18dp"
+
+                      android:text="50"
+                      android:id="@+id/visitCount"
+                      android:gravity="center"
+                      android:layout_marginBottom="5dp"
+                      android:layout_height="wrap_content"/>
+              </LinearLayout>
+          </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/darkgray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ic_timer_black_24dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/darkgray"
+                        android:fontFamily="@font/font_bold"
+                        android:textSize="16dp"
+
+                        android:text="@string/Expire2"
+                        android:gravity="center"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/colorAccent"
+                        android:fontFamily="@font/font_bold"
+                        android:textSize="18dp"
+                        android:id="@+id/ExpirePackage"
+                        android:text="50"
+                        android:gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_height="0.5dp"
+        android:background="@color/darkgray"/>
+</LinearLayout>

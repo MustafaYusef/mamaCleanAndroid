@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray"
+    tools:context=".ui.Main.itemsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:id="@+id/itemsScrollPackage"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/ItemsListPackage"
+                android:layout_height="match_parent"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:elevation="5dp"
+         android:id="@+id/conMy"
+         android:outlineProvider="background"
+         android:layout_height="wrap_content">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layoutDirection="locale"
+          android:text="@string/totalPrice"
+          android:layout_marginLeft="20dp"
+          android:layout_marginBottom="5dp"
+          android:layout_marginRight="30dp"
+          android:paddingRight="10dp"
+          android:textSize="18sp"
+          android:fontFamily="@font/font_bold"
+          android:textColor="@color/colorAccent"
+          android:id="@+id/pricePackage"
+          android:layout_height="wrap_content"/>
+         <androidx.constraintlayout.widget.ConstraintLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             >
+
+             <ProgressBar
+                 android:id="@+id/ProgBuyPack"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 app:layout_constraintBottom_toBottomOf="@+id/BuyPackBtn"
+                 app:layout_constraintEnd_toEndOf="@+id/BuyPackBtn"
+                 app:layout_constraintStart_toStartOf="@+id/BuyPackBtn"
+                 app:layout_constraintTop_toTopOf="@+id/BuyPackBtn" />
+             <Button
+                 android:id="@+id/BuyPackBtn"
+                 android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                 android:layout_marginRight="20dp"
+                 android:background="@drawable/round_btn4"
+                 android:fontFamily="@font/font_bold"
+                 android:text="@string/buyOffer"
+                 android:textColor="@color/white"
+                 android:textSize="20sp"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintHorizontal_bias="0.0"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toTopOf="parent" />
+
+
+         </androidx.constraintlayout.widget.ConstraintLayout>
+
+     </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/progress"/>
+
+</FrameLayout>

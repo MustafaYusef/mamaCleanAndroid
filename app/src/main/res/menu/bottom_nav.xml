@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+
+    <item android:id="@+id/categoreFragment"
+      android:icon="@drawable/ic_home_black_24dp"
+    android:title="@string/Main"
+    >
+
+    </item>
+    <item android:id="@+id/cartFragment"
+          android:icon="@drawable/ic_shopping_cart_black_24dp"
+          android:title="@string/Cart">
+
+    </item>
+<!--    <item android:id="@+id/orders_fragment"-->
+
+<!--            android:icon="@drawable/ic_assignment_black_24dp"-->
+<!--            android:title="الطلبات">-->
+
+<!--    </item>-->
+    <item android:id="@+id/myPackage_fragment"
+            android:icon="@drawable/ic_cube"
+        android:title="@string/myPackage">
+
+    </item>
+    <item android:id="@+id/main_Fragment"
+        android:icon="@drawable/ic_local_offer_black_24dp"
+        android:title="@string/offers">
+
+    </item>
+    <item android:id="@+id/profileFragment"
+          android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/account">
+
+    </item>
+
+
+
+</menu>
